@@ -1,0 +1,13 @@
+.hero {
+    background-image: url("./images/leaves.jpg");
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 10px solid #8EB29D;
+    border-width: 10px;
+  }
+
+  /* body{
+      background-color:#48EA8F;
+  } */
