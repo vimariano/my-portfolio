@@ -14,6 +14,10 @@
     padding-bottom: 75px;
     justify-content: space-between;
   }
+
+  header a {
+    text-decoration: none;    
+  }
   
   header nav ul li {
     display: inline;
@@ -117,6 +121,34 @@
     position: absolute;
     display: block;
     text-align: center;
+}
+
+.coming-soon{
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin: 20p;
+}
+.box1{
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    line-height: 30px;
+    border: solid 5px green;
+    margin: 30px;
+    background-image: url("./images/leaves.jpg");
+}
+
+.box2{
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    line-height: 30px;
+    border: solid 5px green;
+    margin: 30px;
+    background-image: url("./images/leaves.jpg");
 }
 
 /* contact */
