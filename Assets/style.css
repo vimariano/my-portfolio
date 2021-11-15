@@ -1,13 +1,128 @@
+  body{
+       background-color: #D1DDD2;
+       padding: auto;
+  }
+
+  h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  /* header */
+  header {
+    padding: 20px 35px;
+    background-color: #D1DDD2;
+    padding-bottom: 75px;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    display: inline;
+    float: right;
+    padding-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-size: 22px;
+    font: white ;
+    list-style: none;
+  }
+
+  /*hero  */
 .hero {
     background-image: url("./images/leaves.jpg");
     height: 250px;
     background-size: cover;
     background-position: center;
     position: relative;
-    border: 10px solid #8EB29D;
-    border-width: 10px;
+    
   }
 
-  /* body{
-      background-color:#48EA8F;
-  } */
+/* about me */
+.about-me{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
+    margin-left: 75px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-me h2{
+    text-align: left;
+    margin-left: 50px;
+}
+.about {
+    display: inline-block;
+}
+
+.about-me p{
+    text-align: left;
+    float: left;
+    width: 300px;
+    font-size: 20px;
+    flex-wrap: wrap;  
+}
+  .me{
+      background-image: url("./images/hilltop.jpg");
+      height: 400px;
+      width: 400px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      float: right;
+      margin: 25px;
+  }
+
+  .bois{
+    background-image: url("./images/bois.jpg");
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    float: right;
+    margin: 25px;
+}
+/* work */
+.projects{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.projects h2{
+    margin-left: 75px;
+    text-align: left;
+}
+
+.projects h3{
+    text-align: center;
+}
+
+.run-buddy img{
+    background-image: url("./images/leaves.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    
+}
+.image-title {
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+
+/* contact */
+.contact{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+}
+
