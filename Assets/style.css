@@ -70,7 +70,7 @@
     flex-wrap: wrap;  
 }
   .me{
-      background-image: url("./images/hilltop.JPG");
+      background-image: url("./images/hilltop.jpg");
       height: 400px;
       width: 400px;
       background-size: cover;
