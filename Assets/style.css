@@ -131,24 +131,23 @@
     flex-direction: row;
     margin: 20p;
 }
-.box1{
-    padding: 10px;
-    height: 400px;
-    width: 400px;
-    line-height: 30px;
-    border: solid 5px green;
-    margin: 30px;
-    background-image: url("./images/leaves.jpg");
+.box1 img{
+  height: 525px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
 }
 
 .box2{
-    padding: 10px;
+    /* padding: 10px;
     height: 400px;
-    width: 400px;
+    width: 400px; */
     line-height: 30px;
     border: solid 5px green;
     margin: 30px;
     background-image: url("./images/leaves.jpg");
+    text-align: center;
 }
 
 /* contact */
